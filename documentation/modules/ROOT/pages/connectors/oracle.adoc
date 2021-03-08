@@ -1203,7 +1203,7 @@ The following example configuration illustrates that by adding the `database.con
         "database.pdb.name" : "ORCLPDB1",
         "database.out.server.name" : "dbzxout",
         "database.history.kafka.bootstrap.servers" : "kafka:9092",
-        "database.history.kafka.topic": "schema-changes.inventory"
+        "database.history.kafka.topic": "schema-changes.inventory",
         "database.connection.adapter": "logminer"
     }
 }
